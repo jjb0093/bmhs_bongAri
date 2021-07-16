@@ -3,8 +3,8 @@
     $user = "root";
     $pass = "#";
     $dbName = "bongclub";
-    $dbConnect3 = mysqli_connect($host, $user, $pass, $dbName);
-    mysqli_set_charset($dbConnect3, 'utf8');
+    $dbConnect = mysqli_connect($host, $user, $pass, $dbName);
+    mysqli_set_charset($dbConnect, 'utf8');
 
     if(mysqli_connect_errno()){
         echo "데이터베이스 접속 실패";
